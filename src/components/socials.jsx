@@ -10,21 +10,27 @@ export default function Social() {
           rel="noreferrer"
           target="_blank"
           href="mailto:alessio.bianchetti@gmail.com"
-        ></a>
+        >
+          <i className="hidden">Email</i>
+        </a>
         <a
           className="fab fa-github fa-2x text-white"
           aria-label="github"
           rel="noreferrer"
           target="_blank"
           href="https://github.com/abianche"
-        ></a>
+        >
+          <i className="hidden">GitHub</i>
+        </a>
         <a
           className="fab fa-linkedin fa-2x text-white"
           aria-label="linkedin"
           rel="noreferrer"
           target="_blank"
           href="https://www.linkedin.com/in/alessio-bianchetti"
-        ></a>
+        >
+          <i className="hidden">LinkedIn</i>
+        </a>
       </div>
     </section>
   )
