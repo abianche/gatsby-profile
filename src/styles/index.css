@@ -4,4 +4,5 @@
 
 body {
   @apply antialiased;
+  background-color: #212121;
 }

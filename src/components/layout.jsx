@@ -12,10 +12,7 @@ import Header from "./header"
 export default function Layout({ children, pageInfo }) {
   return (
     <>
-      <div
-        className="flex flex-col h-screen justify-between"
-        style={{ backgroundColor: `#212121` }}
-      >
+      <div className="flex flex-col h-screen justify-between">
         <Header pageInfo={pageInfo} />
         <main className="mb-auto">{children}</main>
         <Footer />
