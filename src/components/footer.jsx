@@ -16,8 +16,8 @@ export default function Footer() {
 
   return (
     <footer className="p-4 px-6">
-      <div className="flex flex-col lg:flex-row items-center">
-        <div className="w-full lg:w-auto lg:mr-auto text-center text-white lg:text-left">
+      <div className="flex flex-col items-center">
+        <div className="text-center text-white">
           Made with <i className="fas fa-bolt text-yellow-200"></i> using{" "}
           <a
             aria-label="gatsby"
@@ -28,7 +28,7 @@ export default function Footer() {
             Gatsby
           </a>
         </div>
-        <div className="w-full lg:w-auto text-center text-white lg:text-right">
+        <div className="text-center text-white">
           © {new Date().getFullYear()} {data.site.siteMetadata.title}
         </div>
       </div>
