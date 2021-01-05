@@ -5,7 +5,7 @@ export default function Social() {
     <section>
       <div className="flex justify-center space-x-5">
         <a
-          className="fas fa-envelope fa-2x text-white"
+          className="fas fa-envelope fa-2x text-white hover:text-yellow-200"
           aria-label="email"
           rel="noreferrer"
           target="_blank"
@@ -14,7 +14,7 @@ export default function Social() {
           <i className="hidden">Email</i>
         </a>
         <a
-          className="fab fa-github fa-2x text-white"
+          className="fab fa-github fa-2x text-white hover:text-yellow-200"
           aria-label="github"
           rel="noreferrer"
           target="_blank"
@@ -23,7 +23,7 @@ export default function Social() {
           <i className="hidden">GitHub</i>
         </a>
         <a
-          className="fab fa-linkedin fa-2x text-white"
+          className="fab fa-linkedin fa-2x text-white hover:text-yellow-200"
           aria-label="linkedin"
           rel="noreferrer"
           target="_blank"
