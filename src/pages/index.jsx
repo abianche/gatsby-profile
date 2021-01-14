@@ -13,7 +13,7 @@ const IndexPage = () => (
         <h2 className=" mt-4 text-white text-5xl leading-tight font-semibold font-heading">
           Computer scientist
         </h2>
-        <p className="mt-6 mb-8 text-gray-100 leading-relaxed">
+        <p className="mt-6 mb-8 text-lg text-gray-100 leading-relaxed">
           I've been a computer science enthusiast for as long as I can remember.
           I'm always trying to master whatever I am doing without losing focus.
           However, I also keep an eye open to what's new out there. I am an

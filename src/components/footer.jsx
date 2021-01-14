@@ -16,7 +16,7 @@ export default function Footer() {
 
   return (
     <footer className="p-4 px-6">
-      <div className="flex flex-col items-center text-center text-gray-500">
+      <div className="flex flex-col items-center text-center text-gray-300">
         <div>
           Made with{" "}
           <i
