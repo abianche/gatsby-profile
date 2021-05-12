@@ -1,12 +1,12 @@
 import React from "react"
 import Image from "../components/image"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Social from "../components/socials"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <Seo title="Home" />
     <section className="py-12 px-4 text-center">
       <Image />
       <div className="w-full max-w-2xl mx-auto">

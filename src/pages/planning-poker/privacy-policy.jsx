@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../../components/layout"
-import SEO from "../../components/seo"
+import Seo from "../../components/seo"
 
 const PrivacyPolicyPage = () => (
   <Layout>
-    <SEO title="Planning Poker Online - Privacy Policy" />
+    <Seo title="Planning Poker Online - Privacy Policy" />
     <section className="py-12 px-4 text-center">
       <h1 className="text-white text-3xl leading-tight font-semibold font-heading">
         Planning Poker Online
