@@ -44,6 +44,9 @@ export default function Footer() {
             Tailwind CSS
           </a>
         </div>
+        <div className="font-extralight">
+          BTC · 1MmzATjPfDebJLPQZ13pxzD7ZVwbEka89K
+        </div>
         <div>
           © {new Date().getFullYear()} {data.site.siteMetadata.title}
         </div>
