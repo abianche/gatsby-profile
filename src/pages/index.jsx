@@ -13,6 +13,9 @@ const IndexPage = () => (
         <h2 className=" mt-4 text-white text-5xl leading-tight font-semibold font-heading">
           Computer scientist
         </h2>
+        <p className="mt-2 mb-4 text-sm text-gray-100 font-bold leading-relaxed">
+          Master of Science
+        </p>
         <p className="mt-6 mb-8 text-lg text-gray-100 leading-relaxed">
           I've been a computer science enthusiast for as long as I can remember.
           I'm always trying to master whatever I am doing without losing focus.
