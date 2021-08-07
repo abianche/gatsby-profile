@@ -31,6 +31,15 @@ export default function Social() {
         >
           <i className="hidden">LinkedIn</i>
         </a>
+        <a
+          className="fab fa-instagram fa-2x text-white hover:text-yellow-200"
+          aria-label="instagram"
+          rel="noreferrer"
+          target="_blank"
+          href="https://www.instagram.com/alessio.bianchetti"
+        >
+          <i className="hidden">LinkedIn</i>
+        </a>
       </div>
     </section>
   )
